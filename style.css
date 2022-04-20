@@ -1,0 +1,45 @@
+img {
+    width:100px;
+    length:100px;
+
+}
+
+ img[src="ciudad.jpg"] {
+    width:300px;
+    length:300px;
+}
+
+.first {
+    display:flex;
+    justify-content: space-between;
+   /* background-color: aqua; */
+    height:25px;
+}
+
+ul{ 
+    margin:0;
+    display: flex;
+    gap:20px;
+    list-style: none;
+    
+}
+
+a:link{text-decoration:none;}
+a:visited{text-decoration: none; }
+
+a{
+    color:black
+}
+
+.second{
+    display:flex;
+    background-color: aqua;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+button{
+    flex-shrink: 0;
+    height:30px;
+}
